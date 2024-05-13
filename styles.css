@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Roboto;
+    overflow-x: hidden;
+}
+
+
+
+header{
+    width: 100vw;
+    background-color: black;
+    display: flex;
+}
+
+header h1{
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    height: 7vh;
+    width: 100%;
+    align-content: center;
+    margin: auto;
+}
+
+header ul{
+    margin: auto;
+}
+
+ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#hero{
+    background-image: url('images/bg-hero.jpg');
+    filter: brightness(70%);
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    color: white;
+}
+
+#content h1{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    text-align: justify;
+}
+#bio{
+    padding: 30px;
+}
+
+#bio h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.sector{
+    display: inline;
+}
+
+#skills{
+    padding: 30px;
+}
+
+#skills h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+#skills img{
+    width: 50px;
+    height: 50px;
+}
+
+footer{
+    background-color: black;
+    padding-top: 20px;
+    text-align: center;
+    height: 7vh;
+    color: white;
+}
